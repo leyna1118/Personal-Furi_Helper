@@ -1,0 +1,6 @@
+keyboard
+Pillow
+pytesseract
+fugashi
+unidic-lite
+pywin32
