@@ -4,3 +4,4 @@ pytesseract
 fugashi
 unidic-lite
 pywin32
+deep-translator
