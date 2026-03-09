@@ -1,6 +1,13 @@
 # FuriHelper
 
-A hotkey-triggered OCR tool for reading Japanese game text. Press a hotkey while playing a game to capture dialogue, extract the text, display it with ruby-style furigana above the kanji, and show a Traditional Chinese translation — all in a scrolling log.
+A **Windows-only** hotkey-triggered OCR tool for reading Japanese game text. Press a hotkey while playing a game to capture dialogue, extract the text, display it with ruby-style furigana above the kanji, and show a Traditional Chinese translation — all in a scrolling log.
+
+## Requirements
+
+- Python 3.8+
+- Tesseract OCR
+- Windows 10/11
+- Internet connection (for translation)
 
 ## How It Works
 
@@ -55,10 +62,3 @@ The region selector handles mixed-DPI multi-monitor setups (e.g. a HiDPI laptop 
 | `furigana.py` | Kanji to hiragana annotation via MeCab (fugashi) and Japanese → Traditional Chinese translation via Google Translate |
 | `region_selector.py` | Multi-monitor drag-to-select overlay for defining capture area |
 | `config.json` | Auto-generated file storing your selected region and hotkey |
-
-## Requirements
-
-- Python 3.8+
-- Tesseract OCR
-- Windows 10/11
-- Internet connection (for translation)
